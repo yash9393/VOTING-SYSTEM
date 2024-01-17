@@ -42,6 +42,7 @@ void electionResult()
         printf("            IJK---Congress---AAP---BJP\n");
         printf("Total Vote   %d       %d        %d     %d\n",IJK,congress,aap,BJP);
     }
+        
     else
     {
         printf("\n***BJP won the election***\n\n");
@@ -105,5 +106,10 @@ void main()
         printf("\n");
     } while (choose != 5);
 }
+
+
+
+
+
 
 
