@@ -2,6 +2,7 @@
 int IJK=0, congress=0, aap=0, BJP=0;
 void electionResult()
 {
+
     int wonByVote;
     if (IJK > congress && IJK > aap && IJK > BJP)
     {
@@ -73,6 +74,7 @@ void calculateVote(int vote)
         break;
     }
 }
+
 void main()
 {
     int choose;
